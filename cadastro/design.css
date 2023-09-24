@@ -1,0 +1,38 @@
+#formulario {
+    background-color: rgb(239, 231, 231);
+    border-radius: 2%;
+
+}
+
+form {
+    padding: 0.8%;
+}
+
+input[type=text] {
+    width: 86%;
+    padding: 0.4%;
+}
+
+select {
+    width: 87%;
+    padding: 0.4%;
+}
+
+p {
+    font-size: 18px;
+}
+
+input[type=submit] {
+    background-color: rgb(71, 129, 71);
+    color: aliceblue;
+    border-radius: 12%;
+    border-style: none;
+    padding: 0.3%;
+    width: 4%;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(238, 240, 238);
+    color: rgb(3, 197, 74);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <h2> Formulario de Contato</h2>
+    </header>
+    <main>
+        <div id="formulario">
+            <form>
+
+                <p>
+                    <label for="name"> <strong>Nome</strong></label>
+                </p>
+                <input type="text" name="nome" id="name" placeholder="Seu comentario.." required>
+                <p>
+                    <label for="lastname"><strong>Sobrenome</strong></label>
+                </p>
+                <input type="text" name="sobrenome" id="lastname" placeholder="Seu sobrenome.." required>
+                <p>
+                    <label for="contry"> <strong>País</strong></label>
+                </p>
+                <select id="contry" name="pais">
+                    <option>Brasil</option>
+                    <option> Canada</option>
+                    <option>EUA</option>
+                </select>
+                <p>
+                    <label for="coment"><strong> Comentário</strong></label>
+                </p>
+                <textarea id="coment" name="comentario" placeholder="Digite seu comentário aqui..." cols="220px"
+                    rows="15px" required></textarea>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+
+            </form>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
